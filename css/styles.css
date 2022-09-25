@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+/* ### Primary */
+
+--veryDarkMagenta: hsl(300, 43%, 22%);
+--sofPink: hsl(333, 80%, 67%);
+
+/* ### Neutral */
+
+--darkGrayishMagenta: hsl(303, 10%, 53%);
+--lightGrayishMagenta: hsl(300, 24%, 96%);
+--white: hsl(0, 0%, 100%);
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    color: var(--veryDarkMagenta);
+    font-size: 3.2em;
+    margin-bottom: 35px;
+}
+h2 {
+    color: var(--white);
+}
+h3 {
+    color: var(--sofPink);
+    font-size: 18px;
+}
+
+.grid {
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 1100px;
+}
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-left: 15px;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 6em;
+}
+.descripcion p {
+    color: var(--veryDarkMagenta);
+    font-size: 18px;
+    line-height: 30px;
+}
+.stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* arriba derecha abajo izquierda*/
+    padding: 25px 10px 10px 45px;
+}
+
+.backgroud-estrella {
+    background-color: var(--lightGrayishMagenta);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0px 2em 0px 2em;
+}
+.stars > div:first-child {
+    margin: 0px 4em 0px 0px;
+}  
+.stars > div:last-child {
+    margin: 0px 0px 0px 4em;
+}
+.estrellas {
+    display: flex;
+}
+.estrellas img {
+    width: 15px;
+    margin: 0px 3px;
+}
+.estrellas-icono {
+    margin: 0px 20px;
+}
+
+.descripcion-estrellas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    color: var(--veryDarkMagenta)
+}
+.vendedores {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.backgroud-perfil {
+    display: flex;
+    background-color: var(--veryDarkMagenta);
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.vendedores > div:first-child {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.vendedores > div:last-child {
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 38px;
+}
+.perfil img {
+    margin-right: 1.5em;
+    border-radius: 100%;
+    width: 2.5em;
+}
+.info {
+    display: flex;
+}
+.nombre-cargo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nombre-cargo :nth-child(1) {
+    color: var(--white);
+}
+
+.perfil p {
+    margin-top: 2.5em;
+    color: var(--white);
+    line-height: 1.5em;
+}
