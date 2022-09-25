@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/mat1asortiz/nft-preview-card-component-main.git](https://github.com/mat1asortiz/social-proof-section-master.git)
-- Live Site URL: [https://mat1asortiz.github.io/nft-preview-card-component-main/](https://mat1asortiz.github.io/social-proof-section-master/)
+- Solution URL: [https://github.com/mat1asortiz/social-proof-section-master.git](https://github.com/mat1asortiz/social-proof-section-master.git)
+- Live Site URL: [https://mat1asortiz.github.io/social-proof-section-master/](https://mat1asortiz.github.io/social-proof-section-master/)
 
 ## My process
 
