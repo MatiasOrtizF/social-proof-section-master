@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/mat1asortiz/social-proof-section-master](https://github.com/mat1asortiz/social-proof-section-master)
-- Live Site URL: [https://mat1asortiz.github.io/social-proof-section-master](https://mat1asortiz.github.io/social-proof-section-master)
+- Solution URL: [https://github.com/mat1asortiz/nft-preview-card-component-main](https://github.com/mat1asortiz/social-proof-section-master)
+- Live Site URL: [https://mat1asortiz.github.io/nft-preview-card-component-main](https://mat1asortiz.github.io/social-proof-section-master)
 
 ## My process
 
@@ -37,6 +37,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- CSS Media Queries
 
 ## Author
 
